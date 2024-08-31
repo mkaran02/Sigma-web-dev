@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /* element selector */
+        div{
+            /* background-color: red; */
+        }
+
+        /* class selector */
+        .red
+        {
+            background-color: red;
+        }
+        /* id selector */
+        #green
+        {
+            background-color: green;
+        }
+        /* child selector */
+        div>p{color: blue;
+            background-color: brown;
+
+        }
+        /* descedent selector */
+        main p{
+            color: blue;
+            background-color: aliceblue;
+        }
+        /* univesral selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* pseudo selector */
+        a:visited{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover
+        {
+            background-color: yellow;
+        }
+        p:first-child
+        {
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>I am a dev</div>
+
+    <div class="red">I am a dev</div>
+    <main id="green">I am dev
+        <p>I am karan</p>
+        <p>I am karan</p>
+    </main>
+    <div >
+        <a href="https:www.google.com">Go to google</a>
+    </div>
+
+
+</body>
+</html>
