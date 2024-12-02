@@ -1,0 +1,33 @@
+#container{
+    width:600px;
+    height: 300px;
+    margin: 10px auto;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px 100px ;
+   grid-template-rows: 50px 50px 50px 50px;
+   /* grid-template-rows: repeat(3 ,1fr); */
+   /* row-gap: 10px; */
+   /* column-gap: 10px; */
+   grid-gap: 10px; for both row and column
+
+    
+    
+    
+}
+#container div
+{
+    width: 100px;
+    height: 50px;
+    color: rgb(31, 33, 35);
+    justify-self:start;
+    
+}
+h1{
+    text-align: center;
+    
+        
+    }
+
+

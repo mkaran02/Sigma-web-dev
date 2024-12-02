@@ -1,0 +1,29 @@
+.card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin:10px;
+    padding: 10px;
+    
+   
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+#nara{
+    display: flex;
+    justify-content:space-evenly;
+
+}
+footer{
+   text-align: right;
+}
+
+@media(max-width:390px)
+{
+    #nara{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,70 @@
+.box {
+  height: 100px;
+  width: 300px;
+  background-color: cornflowerblue;
+  /* animation-name: animate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-direction:normal; */
+  
+  
+ animation:animate 2s ease-in 0s infinite normal;
+ /* shortcut */
+}
+
+/* @keyframes animate {
+  from {
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+  to {
+    height:200px ;
+    width: 400px;
+    font-size: 40px;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+} */
+
+@keyframes animate
+{
+    0%{
+        background-color: blue;
+    }
+    50%
+    {
+        background-color: brown;
+    }
+    100%
+    {
+        background-color: burlywood;
+    }
+}
+h1{
+    background-color: yellow;
+   
+}
+/* @media (width:400px)
+{
+    h1{
+        background-color: red;
+    }
+/* it means that when the width of  device
+ becomes 400px the bakcground color turns from yellow to red */
+} 
+
+@media (min-width: 400px)
+{
+    h1{
+        background-color:green
+    }
+}
+@media (max-width: 700px){
+    h1{
+        background-color:black;
+    }
+}
